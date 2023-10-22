@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const mymodule = require('./module.js');
-const file = "/Users/Gaby/Documents/Course/Sprint3/test-files/";
+const file = "./test-files/";
 const filterExtension = "js";
 function callback(err, result) {
     if (err)

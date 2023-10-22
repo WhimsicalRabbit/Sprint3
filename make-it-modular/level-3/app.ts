@@ -1,5 +1,5 @@
 const mymodule = require('./module.js')
-const file = "/Users/Gaby/Documents/Course/Sprint3/test-files/";
+const file = "./test-files/";
 const filterExtension = "js";
 
 function callback (err: Error, result: any) {

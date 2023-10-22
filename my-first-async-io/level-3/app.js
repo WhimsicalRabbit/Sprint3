@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = require("node:fs/promises");
-const filePath = "/Users/Gaby/Documents/Course/Sprint3/test-files/text.txt";
+const filePath = "./text.txt";
 function read() {
     return __awaiter(this, void 0, void 0, function* () {
         try {

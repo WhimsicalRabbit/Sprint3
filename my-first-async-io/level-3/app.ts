@@ -1,5 +1,5 @@
 const fs = require("node:fs/promises");
-const filePath = "./test-files/text.txt";
+const filePath = "./text.txt";
 
 async function read() {
     try {

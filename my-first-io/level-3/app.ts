@@ -1,5 +1,5 @@
 const fs = require('fs')
-const filePath = "./test-files/text.txt"
+const filePath = "./text.txt"
 
 let str = fs.readFileSync(filePath,'utf8').split("\n").length -1;
 

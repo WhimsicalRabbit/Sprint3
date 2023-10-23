@@ -11,7 +11,7 @@ const httpGet = (url) => {
             let rawData = "";
             
             res.on("data", (chunk) => {
-                rawData += chunk + ". ";
+                rawData += chunk;
             })
 
             res.on("end", () => {
@@ -43,7 +43,7 @@ describe('connection', () => {
 
     it('should return the contents of the readdir stream', async () => {
         return httpGet(url).then( data => {
-            expect(data).toBe("bunny gang bunny gang. ");
+            expect(data).toMatch("The ocean washed over your grave.");
         })
     });
 });

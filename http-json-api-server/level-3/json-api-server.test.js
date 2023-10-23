@@ -43,13 +43,13 @@ describe('connection', () => {
 
     it('First endpoint', async () => {
         return httpGet(url1).then( data => {
-            expect(data).toBe("{\"hour\":14,\"minute\":10,\"second\":15}. ");
+            expect(data).toEqual("{\"hour\":14,\"minute\":10,\"second\":15}. ");
         })
     });
 
     it('Second enpoint', async () => {
         return httpGet(url2).then( data => {
-            expect(data).toBe("{\"unixtime\":1376136615474}. ");
+            expect(data).toEqual("{\"unixtime\":1376136615474}. ");
         })
     });
 });

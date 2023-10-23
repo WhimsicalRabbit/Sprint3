@@ -14,5 +14,4 @@ jobs:
               with:
                 node-version: 20.8.0
             - run: npm install
-            - run: npm install --save-dev jest
             - run: npm test

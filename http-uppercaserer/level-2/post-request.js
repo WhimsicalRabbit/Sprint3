@@ -6,7 +6,7 @@ const postData = JSON.stringify({
 
 const options = {
     hostname: "127.0.0.1",
-    port: 8000,
+    port: process.argv[2],
     path: "/",
     method: "POST",
     headers: {

@@ -1,6 +1,6 @@
 const http = require('http');
 const map = require('through2-map'); 
-const port = process.argv[2];
+const port = 8080;
 
 const server = http.createServer((req, res) => {
     if (req.method !== "POST") {
@@ -14,3 +14,4 @@ const server = http.createServer((req, res) => {
 }).listen(port, () => {
     console.log(`listening on port ${port}`)
 })
+p

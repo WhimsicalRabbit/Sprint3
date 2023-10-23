@@ -5,7 +5,7 @@ const hostname = "127.0.0.1"
 const server = http.createServer((req, res) => {
     if (req.url == "/") {
     res.writeHead(200, {"content-type": "plain/text"})
-    res.end("plain text")
+    res.end("I think that evil is an idea created by others to avoid dealing with their own nature.")
     } else {
         res.writeHead(404)
         res.end()

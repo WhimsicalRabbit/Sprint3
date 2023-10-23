@@ -1,5 +1,5 @@
 const net = require('net')
-const port = process.argv[2]
+const port = 8000;
 
 const now = () => {
     let date = new Date();
